@@ -4,9 +4,9 @@ This repository contains the dataset for "Review4Repair: Automatic Program Repai
 
 # Dataset Details
 
-Our database includes a total of 35 tables, providing useful information about changes codes, reviewer's details, review time, review and corresponding response etc. We highlight some major table from our database below. The full ERD diagram is attached [here](https://github.com/master/erd.pdf).
+Our database includes a total of 35 tables, providing useful information about changes codes, reviewer's details, review time, review and corresponding response etc. We highlight some major table from our database below. The full ERD diagram is attached [here](https://github.com/Review4Repair/Review4Repair/blob/master/images/erd.pdf).
 
-![](https://github.com/master/erd.png)
+![](https://github.com/Review4Repair/Review4Repair/blob/master/images/erd.png)
 
 To reproduce a particular database <DB_NAME>, follow this following query.
 
