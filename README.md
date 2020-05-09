@@ -15,9 +15,9 @@ This repository contains the dataset for "Review4Repair: Automatic Program Repai
 | 7      | best_pretrained_model_c_hard      |   [link](https://mega.nz/file/ZYxlTAyY#dR5MtfC1EHqcclUPjvZCLnkZP1p4yvQXcgJMhrRvd8Y) |
 
 To run inference and evaluation, unzip the particular checkpoint. Sample tokenized test sets are available in "Inference" directory.   
-**Evaluation:** ```evaluation.py <test_set_src> <test_set_tgt> <model_name>``` 
+**Evaluation:** ```python Inference\evaluation.py <test_set_src> <test_set_tgt> <model_name>``` 
 
-**Predict:** ```prediction.py <test_set_src> <model_name>```
+**Predict:** ```python Inference\prediction.py <test_set_src> <model_name>```
 
 For example, to evaluate model_cc on test set, 
 
