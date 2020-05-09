@@ -24,7 +24,29 @@ For example, to evaluate model_cc on test set,
 ```python Inference\evaluate.py Inference\CC_sample_src-test.txt Inference\CC_sample_tgt-test.txt best_model_cc_hard.pt``` 
 
 To predict using model_cc on test set, 
-```python Inference\predict.py Inference\CC_sample_src-test.txt best_model_cc_hard.pt``` 
+```python Inference\predict.py Inference\CC_sample_src-test.txt best_model_cc_hard.pt```
+
+# Train
+
+For details on model training, refer to [OpenNMT documentation](https://opennmt.net/OpenNMT-py/index.html). To run training:
+
+```
+!onmt_preprocess -train_src training_data/<SRC_DATA>.txt \
+    -train_tgt training_data/c/<TGT_DATA>.txt \
+    -save_data <SAVE_DIR> \
+    -src_vocab vocab/<SRC_VOCAB_FILE>.txt \
+    -tgt_vocab vocab/<TGT_VOCAB_FILE>.txt \
+    -src_vocab_size <SRC_VOCAB_SIZE> \
+    -tgt_vocab_size <TGT_VOCAB_SIZE> \
+    -src_seq_length <SRC_LEN> \
+    -src_seq_length_trunc <SRC_LEN> \
+    -tgt_seq_length 100 \
+    -tgt_seq_length_trunc 100 \
+    -dynamic_dict \
+    -overwrite
+```
+
+<SRC_LEN> = 600 for model_cc, 400 for model_c
 
 # Dataset Details
 
