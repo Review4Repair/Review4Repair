@@ -1,6 +1,6 @@
 # Review4Repair
 
-This repository contains the dataset for "Review4Repair: Automatic Program Repairing Aided with Natural Language Code Review". We mine 15 Gerrit projects and collect a total of 9,48,670 code reviews among which 1,03,990 are from Java.
+This repository contains the dataset for "Review4Repair: Code Review Aided Automatic Program Repairing". We mine 15 Gerrit projects and collect a total of 9,48,670 code reviews among which 1,03,990 are from Java.
 
 # Pretrained Models
 
