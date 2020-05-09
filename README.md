@@ -1,6 +1,6 @@
 # Review4Repair
 
-This repository contains the dataset for "Review4Repair: Code Review Aided Automatic Program Repairing". 
+This repository contains the dataset and source codes for "Review4Repair: Code Review Aided Automatic Program Repairing". 
 
 # Pretrained Models
 
