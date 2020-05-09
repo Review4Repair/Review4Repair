@@ -115,13 +115,13 @@ The root directory contains a file named 'unified_with_date.json' which contains
 
 ## Input Format:
 
-### Finding Change Closer to a Specific Line:
+### Find Change Closer to a Specific Line:
 **Input:** `linediff file1 file2 line_number change_window_size`
 
 **Output:**
 change_type <|sep|> input_code <|sep|> output_code
 
-### Find All Diff's in a Two Files:
+### Find All Diffs between Two Files:
 
 **Input:** `alldiff file1 file2 max_target_len max_input_len`
 
@@ -137,7 +137,7 @@ input_code <|sep|> output_code <|datasep|> -- repeat
 1. Separate with <|datasep|> to get the changes
 2. Split one datapoint with <|sep|>
 
-### Finding Line Numbers of All One Line Changes between Two Files:
+### Find Line Numbers of All One Line Changes between Two Files:
 
 **Input:** `oneliner file1 file2`
 
